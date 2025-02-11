@@ -1,4 +1,0 @@
-1. Header: Name, SM handle: X, LinkedIn, Reddit, Github, HashNode, Email
-2. About me + DP
-3. Technical contributions
-4. Footer(Page): Blog, Projects, Source, 

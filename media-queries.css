@@ -1,0 +1,57 @@
+
+@media (max-width: 690px)  { 
+
+/* ########### Header ########## */
+.header{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    align-items: center;
+    width:100%;
+}
+.header h2{
+    font-size: 25px;
+}
+.socials{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 25px;
+}
+
+
+/* ########### about-me ########## */
+.about-me{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.about-me-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.about-me-img{
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#me-img{
+    width:150px;
+    height: 150px;
+    cursor: pointer;
+    margin-top: 1px;
+}
+
+.about-me-para{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex: 1;
+    margin-top: 20px;
+    row-gap: 10px;
+}
+}

@@ -4,38 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Hemant Sah</title>
 </head>
 <body>
-    <div class="container">
+    <div class="hemant-sah container">
 
         <header class="header">
-            <h2>Hemant Sah</h2>
-            <div class="socials">
-                <li><a href="https://x.com/hemantsah2912" target="_blank">X</a></li>
-                <li><a href="https://www.linkedin.com/in/hemantsah2912/" target="_blank">LinkedIn</a></li>
-                <li><a href="https://github.com/sahemant12" target="_blank">Github</a></li>
-                <li><a href="https://hashnode.com/@hemantsah2912" target="_blank">Hashnode</a></li>
-                <li><a href="https://discord.com/users/927259926433259560" target="_blank">Discord</a></li>               
+            <h2><a href="https://x.com/hemantsah2912" target="_blank">Hemant Sah</h2>
+            <div class="socials">               
+                <a href="https://x.com/hemantsah2912" target="_blank"><li class="social-list"><i class="fa-brands fa-square-x-twitter" style="color: #000000;"></i><span>X</span></li></a>
+                <a href="https://www.linkedin.com/in/hemantsah2912" target="_blank"><li class="social-list"><i class="fa-brands fa-linkedin" style="color: #0077B5;"></i><span>LinkedIn</span></li></a>
+                <a href="https://github.com/sahemant12" target="_blank"><li class="social-list"><i class="fa-brands fa-github" style="color: #000000;"></i><span>Github</span></li></a>
+                <a href="https://hashnode.com/@hemantsah2912" target="_blank"><li class="social-list"><i class="fa-brands fa-hashnode" style="color: #2962FF;"></i><span>Hashnode</span></li></a>
+                <a href="https://discord.com/users/927259926433259560" target="_blank"><li class="social-list"><i class="fa-brands fa-discord" style="color: #5865F2;"></i><span>Discord</span></li></a>
             </div>
         </header>
+        <hr>
 
         <main class="about-me">
             <h2>About Me</h2>
-            <p>I'm <strong><a href="https://x.com/hemantsah2912" target="_blank">Hemant Sah.</a></li></strong>Passionate about tech</p>
-            <img src="" alt="This is an img">
+            <div class="about-me-details">
+                    <div class="about-me-img">
+                        <img src="./images/me5.png" alt="This is an img" id="me-img">
+                    </div>
+                    <div class="about-me-para">
+                        <p>I'm <strong><a href="https://x.com/hemantsah2912" target="_blank" id="myself">Hemant Sah. </a></li></strong> 21 years old as of now(12th Feb 2025).</p>
+                        <p>I have completed my bachelor in Technology from IIIT Bhubaneshwar. I’m currently, working super hard to become Highly Skilled Software Engineer.</p>
+                        <p>Coding is becoming my passion and I loved building products. Right now, nothing give me more joy than converting my idea, thoughts into reality through coding.</p>
+                        <p>Currently, I'm learning Web Development and I believe that web development is the base of software engineering. Also, I'm truely excited for the future to learn(DevOps, Blockchain, AL/ML) and grow so so much.</p>
+                        <p>I feel that through software, I can build products that help millions of people and make there life easy(❌). I can build products that millions of people will use and eventually become super rich(Multi-Millionaire)✅.</p>
+
+                    </div>                    
+                </div>                                   
         </main>
 
-        <section class="technical-contributions"></section>
+        <section class="technical-contributions">
+            <h2>My Tech contributions</h2>
+            <div class="tech-contri-list">
+                <p>Have learn Html, Css, Javascript and build some begineer-advance projects. </p>
+                <p>By the end of 2025, I will definitely have made many contributions to tech.</p>
+            </div>
+        </section>
 
         <footer class="footer">
-            <div class="blogs"></div>
-            <div class="projects"></div>
+            <div class="blogs">
+                <a href="./blogs.html" target="_blank"><span>Blogs</span></a>
+            </div>
+            <div class="projects">
+                <a href="./projects.html" target="_blank"><span>Projects</span></a>
+            </div>
             <div class="source">
-                <li><a href="https://github.com/sahemant12/Portfolio-simple" target="_blank">Source</a></li>
+                <a href="https://github.com/sahemant12/Portfolio-simple" target="_blank"><span>Source</span></a>
             </div>
         </footer>
-
     </div>
     <script src="script.js"></script>
 </body>
